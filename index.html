@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="style.css">
+    <title>Reasponsive Weather App</title>
+</head>
+<body>
+   <main>
+       <h1>Reasponsive Weather App Powered by Open Weather A P I</h1>
+       <section  id="searchBar"  class="searchBar">
+
+       <form action="" id="seacheBar" class="seacheBar">
+        <label for="seacheBar_Text"> Enter a new lovcation </label>
+        <input type="seachBar_text" class="seachBar_text" type="text" role="seachBox" size="40"
+         autocomplete="off" placeholder="city, State, Country">
+         <button id="seachBar_button" class="seachBar_button" title="Submit Location" 
+         aeia-lable="Enter Zip code or city, State, and Country to retrieve weather condition">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-sync fa-spin"></i> 
+        </button>
+       </form>
+      </section>
+
+       <section id="currentForecast" class="currentForecast"></section>
+       <nav id="navButtons" class="navButtons"></nav>
+       <section id="dailyForecast" class="dailyForecast"></section>
+
+
+   </main>
+
+
+
+    <script src="./scritp.js"></script>
+    
+</body>
+</html>
